@@ -1,4 +1,4 @@
-package com.daxueit.demo;
+package com.daxueit.springmvc;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

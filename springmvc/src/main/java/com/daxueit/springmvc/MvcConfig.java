@@ -1,4 +1,4 @@
-package com.daxueit.demo;
+package com.daxueit.springmvc;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.daxueit.demo")
+@ComponentScan("com.daxueit.springmvc")
 public class MvcConfig {
     @Bean
     public InternalResourceViewResolver viewResolver() {
